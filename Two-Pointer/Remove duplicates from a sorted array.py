@@ -5,7 +5,7 @@
 # Input: arr = [1, 1, 2, 2, 3]
 # Output: 3
 
-arr = [1, 1, 2, 2, 3]
+arr = [1, 1, 2, 2, 3,4,4,5,6,7,7]
 res=[]
 left=0
 right=len(arr)-1
@@ -20,3 +20,4 @@ print(len(res))
 
 
 # time complexity =0(n)
+# Space complexity =0(n)
