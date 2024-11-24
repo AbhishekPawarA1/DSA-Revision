@@ -5,8 +5,8 @@
 # Input: arr = [1, 2, 3, 4, 5], target = 6
 # Output: [(1, 5), (2, 4)]
 
-arr = [1, 2, 3, 4, 5]
-target = 6
+arr = [1, 2, 3, 4, 5,8,9,10,11,12,13,14,15,16]
+target = 20
 left=0
 res=[]
 right=len(arr) - 1
@@ -19,4 +19,6 @@ while left<right:
           res.append((arr[left],arr[right]))
           left+=1
           right-=1     
-print(res)          
+print(res)  
+
+# time complexity is 0(n)
