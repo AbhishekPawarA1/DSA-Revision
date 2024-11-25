@@ -3,7 +3,7 @@
 
 
 
-  <!-- *Basic Questions (20)* -->
+## Basic Questions 
 
 
 Find all pairs with a given sum
@@ -130,7 +130,7 @@ Output: 2
 
 
 
-       <!-- *Medium Questions* -->
+## Medium Questions
 
 
 Three Sum Problem
@@ -276,7 +276,7 @@ Output: 4
 
 
 
-    <!-- *Hard Questions (with Space Complexity)* -->
+## Hard Questions 
  
 
 Max Sum of 3 Non-Overlapping Subarrays
