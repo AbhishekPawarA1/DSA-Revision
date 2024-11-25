@@ -13,5 +13,9 @@ for i in arr:
         even.append(i)
     else:
         odd.append(i)
-print(even+odd)        
+print(even+odd) 
+
+
+# time complexity=0(n)
+# space complexity=0(n)
 
