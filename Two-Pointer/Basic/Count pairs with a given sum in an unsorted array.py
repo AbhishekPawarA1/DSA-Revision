@@ -6,8 +6,8 @@
 # Output: 2
 
 
-arr = [1, 5, 7,4,2,3]
-arr.sort()               #[1,2,3,4,5,7]
+arr = [1, 5, 7, -1]
+arr.sort()               # [-1,1,5,7]
 target = 6
 
 left=0
