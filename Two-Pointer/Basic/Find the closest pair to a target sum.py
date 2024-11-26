@@ -24,3 +24,6 @@ while left < right:
         right -= 1  
 
 print(res)
+
+# time complexity is 0(n)
+# space complexity is 0(1)
