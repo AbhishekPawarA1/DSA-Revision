@@ -12,6 +12,7 @@ arr1="listen"
 arr2="silent"
 isanagram=True
 
+# approach 1
 
 if len(arr1) == len(arr2):  
     for char in arr1:
@@ -25,3 +26,17 @@ if isanagram:
     print("True")
 else:
     print("False")        
+
+# time complexity : 0(n2)    
+# space complexity :0(1)
+
+from collections import Counter
+
+if Counter(arr1)==Counter(arr2):
+    print("True")
+else:
+    print("False")    
+
+
+# time complexity : 0(n)    
+# space complexity :0(n)    
