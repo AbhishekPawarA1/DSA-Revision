@@ -28,3 +28,7 @@ for i in range(len(arr)-2):
         else:
             high-=1
 print(result)
+
+
+# time complexity : 0(n2)
+# spance complexity : 0(k)
